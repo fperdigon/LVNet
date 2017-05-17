@@ -1,0 +1,13 @@
+@proceeding{doi:10.1117/12.2253901,
+author = {Vázquez Romaguera, Liset and Romero, Francisco Perdigón and Costa, Marly Guimarães Fernandes and Costa Filho, Cicero Ferreira Fernandes},
+title = {Left ventricle segmentation in cardiac MRI images using fully convolutional neural networks},
+journal = {Proc. SPIE},
+volume = {10134},
+number = {},
+pages = {101342Z-101342Z-11},
+abstract = {According to the World Health Organization, cardiovascular diseases are the leading cause of death worldwide, accounting for 17.3 million deaths per year, a number that is expected to grow to more than 23.6 million by 2030. Most cardiac pathologies involve the left ventricle; therefore, estimation of several functional parameters from a previous segmentation of this structure can be helpful in diagnosis. Manual delineation is a time consuming and tedious task that is also prone to high intra and inter-observer variability. Thus, there exists a need for automated cardiac segmentation method to help facilitate the diagnosis of cardiovascular diseases. In this work we propose a deep fully convolutional neural network architecture to address this issue and assess its performance. The model was trained end to end in a supervised learning stage from whole cardiac MRI images input and ground truth to make a per pixel classification. For its design, development and experimentation was used Caffe deep learning framework over an NVidia Quadro K4200 Graphics Processing Unit. The net architecture is: Conv64-ReLU (2x) – MaxPooling – Conv128-ReLU (2x) – MaxPooling – Conv256-ReLU (2x) – MaxPooling – Conv512-ReLu-Dropout (2x) – Conv2-ReLU – Deconv – Crop – Softmax. Training and testing processes were carried out using 5-fold cross validation with short axis cardiac magnetic resonance images from Sunnybrook Database. We obtained a Dice score of 0.92 and 0.90, Hausdorff distance of 4.48 and 5.43, Jaccard index of 0.97 and 0.97, sensitivity of 0.92 and 0.90 and specificity of 0.99 and 0.99, overall mean values with SGD and RMSProp, respectively.},
+year = {2017},
+doi = {10.1117/12.2253901},
+URL = { http://dx.doi.org/10.1117/12.2253901},
+eprint = {}
+}
