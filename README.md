@@ -10,7 +10,7 @@ On our paper we use Caffe framework. For the present code Tensorflow deep learni
 
 The net architecture is: Conv64-ReLU (2x) – MaxPooling – Conv128-ReLU (2x) – MaxPooling – Conv256-ReLU (2x) – MaxPooling – Conv512-ReLu-Dropout (2x) – Conv2-ReLU – Deconv – Crop – Softmax.
 
-Training and testing processes were carried out using 5-fold cross validation with short axis cardiac magnetic resonance images from [Sunnybrook Database](http://smial.sri.utoronto.ca/LV_Challenge/Home.html).
+Training and testing processes were carried out using 5-fold cross validation with short axis cardiac magnetic resonance images from [Sunnybrook Database](https://www.cardiacatlas.org/studies/sunnybrook-cardiac-data/).
 
 On our paper (issing Caffe framework) we report a Dice score of 0.92 and 0.90, Hausdorff distance of 4.48 and 5.43, Jaccard index of 0.97 and 0.97, sensitivity of 0.92 and 0.90 and specificity of 0.99 and 0.99, overall mean values with SGD and RMSProp, respectively. The tensorflow version of the LVNet present similars results.
 
